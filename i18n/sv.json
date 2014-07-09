@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jopparn"
+		]
+	},
+	"swiftmailer-send-error": "Fel vid sändning av e-post med SwiftMailer: $1"
+}

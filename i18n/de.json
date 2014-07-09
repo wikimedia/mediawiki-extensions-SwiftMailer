@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"swiftmailer-desc": "Ergänzt SwiftMailer als alternativen Mailer",
+	"swiftmailer-smtp-error": "Fehler beim Aufsetzen des SMTP-Transportes für SwiftMailer: $1",
+	"swiftmailer-send-error": "Fehler beim Versenden der E-Mail mit SwiftMailer: $1"
+}
