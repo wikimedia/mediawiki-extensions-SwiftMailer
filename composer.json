@@ -24,13 +24,7 @@
     },
     "description": "SwiftMailer library for Mediawiki extension SwiftMailer",
     "license" : "GPL-2.0+",
-    "repositories" : [
-        {
-            "type" : "vcs",
-            "url": "https://github.com/wikimedia/mediawiki-core-vendor-swiftmailer"
-        }
-    ],
     "require" : {
-        "swiftmailer/swiftmailer": "5.2.0-patch"
+        "swiftmailer/swiftmailer": "~5.2.0"
     }
 }
