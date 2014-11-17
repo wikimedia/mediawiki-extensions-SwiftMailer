@@ -1,4 +1,5 @@
 {
+    "name": "mediawiki/swiftmailer",
     "authors" : [
         {
             "name": "Tony Thomas",
