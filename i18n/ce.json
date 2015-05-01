@@ -5,5 +5,5 @@
 		]
 	},
 	"swiftmailer-smtp-error": "SMTP-транспорт хӀоттош гӀалат ду SwiftMailer: $1",
-	"swiftmailer-send-error": "Электронан почта дӀайохуьйтуш гӀалат ду SwiftMailer гӀоьнца: $1"
+	"swiftmailer-send-error": "Электронан пошт дӀайохуьйтуш гӀалат ду SwiftMailer гӀоьнца: $1"
 }
