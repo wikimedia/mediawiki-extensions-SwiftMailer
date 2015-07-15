@@ -37,6 +37,10 @@ $wgExtensionCredits['other'][] = array(
 	'license-name' => "GPL-2.0",
 );
 
+// Used when $wgSMTP['auth'] is set to true
+// Set to 'ssl' or 'tls'. Eg: $wgSMTPAuthenticationMethod = 'tls'
+$wgSMTPAuthenticationMethod = false;
+
 //Hooks files
 $wgAutoloadClasses[ 'SwiftMailerHooks' ] =  __DIR__ . '/SwiftMailerHooks.php';
 

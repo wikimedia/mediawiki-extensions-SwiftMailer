@@ -78,7 +78,7 @@ class SwiftMailerHooks {
 	 * @return SwiftMailer::Transport object Swift_MailTransport|Swift_SmtpTransport
 	 */
 	protected static function getSwiftMailer() {
-		global $wgSMTP;
+		global $wgSMTP, $wgSMTPAuthenticationMethod;
 		static $swiftTransport = null;
 		if ( !$swiftTransport ) {
 			if ( is_array( $wgSMTP ) ) {
@@ -86,6 +86,9 @@ class SwiftMailerHooks {
 				$swiftTransport = Swift_SmtpTransport::newInstance( $wgSMTP['host'], $wgSMTP['port'] )
 					->setUsername( $wgSMTP['username'] )
 					->setPassword( $wgSMTP['password'] );
+				if ( $wgSMTP['auth'] === true && $wgSMTPAuthenticationMethod ) {
+					$swiftTransport->setEncryption( $wgSMTPAuthenticationMethod );
+				}
 			} else {
 				$swiftTransport = Swift_MailTransport::newInstance();
 			}
