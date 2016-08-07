@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Revi"
+		]
+	},
+	"swiftmailer-desc": "대체 메일 발송 스크립트로 SwiftMailer 제공",
+	"swiftmailer-smtp-error": "SwiftMailer로의 SMTP 변환 설정 중 오류가 발생하였습니다: $1",
+	"swiftmailer-send-error": "SwiftMailer 를 사용하여 메일을 보내는 중 오류가 발생하였습니다: $1"
+}
