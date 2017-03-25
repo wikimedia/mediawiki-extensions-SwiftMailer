@@ -1,31 +1,31 @@
 {
-    "name": "mediawiki/swiftmailer",
-    "authors" : [
-        {
-            "name": "Tony Thomas",
-            "email": "01tonythomas@gmail.com",
-            "homepage": "http://tttwrites.in",
-            "role": "Developer"
-        },
-        {
-            "name": "Legoktm",
-            "email": "legoktm@gmail.com"
-        },
-        {
-            "name": "Jeff Green",
-            "email": "jgreen@wikimedia.org"
-        }
-    ],
-    "homepage" : "https://www.mediawiki.org/wiki/Extension:SwiftMailer",
-    "support" : {
-        "email": "01tonythomas@gmail.com",
-        "issues": "https://phabricator.wikimedia.org/",
-        "irc": "irc://irc.freenode.org/wikimedia-dev",
-        "source": "https://github.com/wikimedia/mediawiki-extensions-SwiftMailer"
-    },
-    "description": "SwiftMailer library for Mediawiki extension SwiftMailer",
-    "license" : "GPL-2.0+",
-    "require" : {
-        "swiftmailer/swiftmailer": "~5.2.0"
-    }
+	"name": "mediawiki/swiftmailer",
+	"authors" : [
+		{
+			"name": "Tony Thomas",
+			"email": "01tonythomas@gmail.com",
+			"homepage": "http://tttwrites.in",
+			"role": "Developer"
+		},
+		{
+			"name": "Legoktm",
+			"email": "legoktm@gmail.com"
+		},
+		{
+			"name": "Jeff Green",
+			"email": "jgreen@wikimedia.org"
+		}
+	],
+	"homepage" : "https://www.mediawiki.org/wiki/Extension:SwiftMailer",
+	"support" : {
+		"email": "01tonythomas@gmail.com",
+		"issues": "https://phabricator.wikimedia.org/",
+		"irc": "irc://irc.freenode.org/wikimedia-dev",
+		"source": "https://github.com/wikimedia/mediawiki-extensions-SwiftMailer"
+	},
+	"description": "SwiftMailer library for Mediawiki extension SwiftMailer",
+	"license" : "GPL-2.0+",
+	"require" : {
+		"swiftmailer/swiftmailer": "~5.2.0"
+	}
 }
