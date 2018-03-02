@@ -22,7 +22,7 @@
  * @author Tony Thomas<01tonythomas@gmail.com>
  * @author Legoktm <legoktm@gmail.com>
  * @author Jeff Green <jgreen@wikimedia.org>
- * @license GPL-2.0
+ * @license GPL-2.0-or-later
  * @ingroup Extensions
  */
 $wgExtensionCredits['other'][] = array(
@@ -34,7 +34,7 @@ $wgExtensionCredits['other'][] = array(
 	'url' => "https://www.mediawiki.org/wiki/Extension:SwiftMailer",
 	'descriptionmsg' => 'swiftmailer-desc',
 	'version'  => '1.0',
-	'license-name' => "GPL-2.0",
+	'license-name' => "GPL-2.0-or-later",
 );
 
 // Used when $wgSMTP['auth'] is set to true

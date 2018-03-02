@@ -22,7 +22,7 @@
  * @author Tony Thomas <01tonythomas@gmail.com>
  * @author Legoktm <legoktm@gmail.com>
  * @author Jeff Green <jgreen@wikimedia.org>
- * @license GPL-2.0
+ * @license GPL-2.0-or-later
  * @ingroup Extensions
  */
 class SwiftMailerHooks {
