@@ -36,11 +36,15 @@ class SwiftMailerHooks {
 	 * @param string $body
 	 * @return bool|Exception|Swift_SwiftException|Swift_TransportException
 	 */
-	public static function onAlternateUserMailer( array $headers, array $to,
-						      MailAddress $from, $subject, $body ) {
+	public static function onAlternateUserMailer(
+		array $headers,
+		array $to,
+		MailAddress $from,
+		$subject, $body
+	) {
 		$message = Swift_Message::newInstance()
 				->setSubject( $subject )
-				->setFrom( array( $from->address => $from->name ) )
+				->setFrom( [ $from->address => $from->name ] )
 				->setBody( $body );
 
 		$returnPath = $headers['Return-Path'];
@@ -59,7 +63,7 @@ class SwiftMailerHooks {
 		wfDebug( "Sending mail via Swift::Mail\n" );
 
 		foreach ( $to as $recip ) {
-			$message->setTo( array( $recip->address => $recip->name ) );
+			$message->setTo( [ $recip->address => $recip->name ] );
 			try {
 				$mailer->send( $message );
 			} catch ( Swift_SwiftException $e ) {
