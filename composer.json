@@ -14,6 +14,10 @@
 		{
 			"name": "Jeff Green",
 			"email": "jgreen@wikimedia.org"
+		},
+		{
+			"name": "Hannes Kruse",
+			"email": "hannes@octofox.de"
 		}
 	],
 	"homepage": "https://www.mediawiki.org/wiki/Extension:SwiftMailer",
@@ -26,7 +30,7 @@
 	"description": "SwiftMailer library for Mediawiki extension SwiftMailer",
 	"license": "GPL-2.0-or-later",
 	"require": {
-		"swiftmailer/swiftmailer": "^5.4.5"
+		"symfony/mailer": "^6.4"
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "52.0.0",
