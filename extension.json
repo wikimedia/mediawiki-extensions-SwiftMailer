@@ -2,29 +2,46 @@
 	"name": "SwiftMailer",
 	"version": "1.1",
 	"author": [
-		"Tony Thomas"
+		"Tony Thomas",
+		"Octfx"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:SwiftMailer",
 	"descriptionmsg": "swiftmailer-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.39.0",
+		"platform": {
+			"php": ">=8.0.0"
+		}
+	},
+	"ConfigRegistry": {
+		"SymfonyMailer": "GlobalVarConfig::newInstance"
 	},
 	"MessagesDirs": {
 		"SwiftMailer": [
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"SwiftMailerHooks": "SwiftMailerHooks.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SwiftMailer\\": "includes/"
+	},
+	"HookHandlers": {
+		"MailHooks": {
+			"class": "MediaWiki\\Extension\\SwiftMailer\\MailHooks"
+		}
 	},
 	"Hooks": {
-		"AlternateUserMailer": "SwiftMailerHooks::onAlternateUserMailer"
+		"AlternateUserMailer": "MailHooks"
 	},
 	"config": {
 		"SMTPAuthenticationMethod": {
+			"description": "Set to 'tls' to enable TLS authentication.",
 			"value": false
+		},
+		"SMTPTlsPeerVerification": {
+			"description": "Set to 'true' to disable TLS peer verification.",
+			"value": null
 		}
 	},
 	"load_composer_autoloader": true,
