@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"swiftmailer-desc": "Omogoča SwiftMailer kot nadomestni poštni program",
+	"swiftmailer-smtp-error": "Napaka pri nastavljanju SMTP-transporta za SwiftMailer: $1",
+	"swiftmailer-send-error": "Napaka pri pošiljanju e-pošte s SwiftMailerjem: $1"
+}
