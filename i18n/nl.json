@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"swiftmailer-desc": "Biedt SwiftMailer als alternatieve mailer",
+	"swiftmailer-smtp-error": "Fout bij het opstellen van SMTP-transport voor SwiftMailer: $1",
+	"swiftmailer-send-error": "Fout bij het verzenden van e-mail met SwiftMailer: $1"
+}
