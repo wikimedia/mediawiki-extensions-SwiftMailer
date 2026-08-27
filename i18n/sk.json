@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"swiftmailer-desc": "Poskytuje SwiftMailer ako alternatívny poštový program",
+	"swiftmailer-smtp-error": "Chyba pri nastavovaní prenosu SMTP pre SwiftMailer: $1",
+	"swiftmailer-send-error": "Chyba pri odosielaní e-mailu pomocou SwiftMailer: $1"
+}
