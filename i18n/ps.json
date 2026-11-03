@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"swiftmailer-desc": "SwiftMailer د بديل برېښليک‌لېږونکي په توگه چمتو کوي",
+	"swiftmailer-smtp-error": "د SwiftMailer لپاره د SMTP لېږد اوڼنو کې تېروتنه: $1",
+	"swiftmailer-send-error": "د SwiftMailer کارولو سره د برېښليک لېږلو کې تېروتنه: $1"
+}
